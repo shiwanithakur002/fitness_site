@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>shiwani's fitness</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            margin: 0px;
+            color: white;
+            padding: 0px;
+            background: url('https://images.unsplash.com/photo-1550345332-09e3ac987658?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Z3ltfGVufDB8fDB8fHww');
+        }
+
+        .left {
+            font-family: cursive;
+            display: inline-block;
+            
+            position: absolute;
+            top: 20px;
+            left: 40px;
+        }
+
+        .left img {
+            width: 40px;
+            filter: invert(100%);
+        }
+
+        .left div {
+            text-align: center;
+            font-size: 25px;
+        }
+
+        .mid {
+            display: block;
+            margin: 12px auto;
+            width: 33%;
+            
+        }
+
+        .right {
+
+            display: inline-block;
+            
+            position: absolute;
+            top: 20px;
+            right: 34px;
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 20px;
+        }
+
+        .navbar li a {
+            color: aliceblue;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        .navbar li a:hover {
+            text-decoration: underline;
+            color: gray;
+        }
+
+        .btn {
+            font-family: cursive;
+            margin: 0px 9px;
+            color: aliceblue;
+            background-color: black;
+            padding: 4px 14px;
+            border: 4px solid grey;
+            border-radius: 4px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: rgb(135, 3, 3);
+        }
+
+        .container {
+            border: 4px solid white;
+            margin: 106px 80px;
+            padding: 75px;
+            width: 33%;
+            border-radius: 20px;
+            text-align: center;
+        }
+
+        .form-group input {
+            text-align: center;
+            display: block;
+            width: 340px;
+            border: 4px solid black;
+            margin: 10px auto;
+            font-size: 28px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="bg.img2.jpg" alt="">
+            <div>shiwani fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <button class="btn">call us</button>
+            <button class="btn">email us</button>
+        </div>
+
+    </header>
+    <div class="container">
+        <h1>join the best gym of universe</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter you name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter you age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter you village">
+            </div>
+            <button class="btn">submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
